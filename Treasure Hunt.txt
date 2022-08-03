@@ -1,0 +1,642 @@
+Ana@Dell MINGW64 ~/Desktop (master)
+$ git clone https://github.com/Revature-Training-1302/exercises.git
+Cloning into 'exercises'...
+remote: Enumerating objects: 46, done.
+remote: Counting objects: 100% (46/46), done.
+remote: Compressing objects: 100% (33/33), done.
+remote: Total 46 (delta 6), reused 42 (delta 5), pack-reused 0
+Receiving objects: 100% (46/46), 5.05 KiB | 1.68 MiB/s, done.
+Resolving deltas: 100% (6/6), done.
+
+Ana@Dell MINGW64 ~/Desktop (master)
+$ cd exercises
+
+Ana@Dell MINGW64 ~/Desktop/exercises (main)
+$ cd
+
+Ana@Dell MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ Ana_Lopez.sql
+ AppData/
+'Application Data'@
+ BullseyeCoverageError.txt
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IdeaProjects/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{0ed2f666-471a-11ec-97d1-e05f538866fa}.TM.blf
+ NTUSER.DAT{0ed2f666-471a-11ec-97d1-e05f538866fa}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{0ed2f666-471a-11ec-97d1-e05f538866fa}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Oracle/
+ Pictures/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+ SYSTEM.sql
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ get-pip.py*
+ hello-world/
+ homebrew/
+ my
+ myawsomekeypair.pem
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ pizza/
+ solution1.java
+
+Ana@Dell MINGW64 ~ (master)
+$ cd Desktop
+
+Ana@Dell MINGW64 ~/Desktop (master)
+$ cd exercises
+
+Ana@Dell MINGW64 ~/Desktop/exercises (main)
+$ ls
+dummy_file  week1/
+
+Ana@Dell MINGW64 ~/Desktop/exercises (main)
+$ cd week1
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1 (main)
+$ ls
+8.2.md  git-exercise.md  unix_exercise/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1 (main)
+$ cd unix_exercise
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ cd house
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd basement
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ cd laundry-room
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  trash1  trash2  treasure1  washer
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ rm trash1 trash2
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 ../../../chest
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  washer
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ cd storage
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  trash3  treasure2
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ rm trash3
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../../../chest
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv trasure ../../../../chest
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd kitchen
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd fridge
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trash4  trash5  trasure4
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash4 trash5
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ mv treasure4 ../../../../chest
+mv: cannot stat 'treasure4': No such file or directory
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ mv trasure4 ../../../../chest
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd oven
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ ls
+chicken-roast
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd pantry
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers  trash6
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ rm trash6
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv 3 ../../../../chest
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+brush  comb  shampoo  soap  toothbrush  toothpaste
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd living-room
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd bookshelf
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings  trash7  trasure5
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ rm trash7
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ mv trasure5 ../../../../chest
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ld
+C:\MinGW\bin\ld.exe: no input files
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor1
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd balcony
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant  trash10  trash11
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ rm trash10 trash11
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bathroom
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bathroom1
+bash: cd: bathroom1: No such file or directory
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bathroom
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd bedroom1
+bash: cd: bedroom1: No such file or directory
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom1
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd closet
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy  trash8  trash9
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash8 trash9
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd dresser
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ ls
+pants  shirt  socks
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd toy-chest
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  trasure6  truck
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ mv trasure6 ../../../../chest
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  truck
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom2
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd closet
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie  treasure7
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ mv treasure7 ../../../../chest
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor2
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd storage
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box1
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+trash12  trash13  trash14
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash12 trash13 trash14
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box2
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters  treasure8
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ mv treasure8 ../../../../chest
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box3
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters  trash15  treasure9
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ mv treasure9 ../../../../chest
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ rm trash15
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd ..
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$ find .trash
+find: ‘.trash’: No such file or directory
+
+Ana@Dell MINGW64 ~/Desktop/exercises/week1/unix_exercise (main)
+$
