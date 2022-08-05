@@ -19,6 +19,7 @@ public class Obj {
 
 
         System.out.println(book3.toString());
+        book3.language();
         System.out.println("Cold blood to Crime and punishment: " + book1.equals(book5));
         System.out.println("Tender is the Night and The Great Gatsby: " + book4.equals(book6));
 

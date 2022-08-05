@@ -57,12 +57,12 @@ public class Books {
     @Override
     public boolean equals(Object book){
         Books other = (Books) book;
-
         if(!(this.author.equals(other.author))) return false;
-
         return true;
     }
-
+    void language(){
+        System.out.println(this.language);
+    }
 
 
 
