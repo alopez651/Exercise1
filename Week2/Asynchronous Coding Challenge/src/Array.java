@@ -31,7 +31,7 @@ public class Array {
             array2[i] = array2[arr - i -1];
             array2[arr - i -1]= temp;
         }
-        if(arr == 0) return;
+        return;
     }
     //https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuffer.html
     //https://stackoverflow.com/questions/7569335/reverse-a-string-in-java/7569380#7569380
